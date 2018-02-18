@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;    
+}
+.max-width {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    display: inline-block;
+}
+.top-fold {
+    margin-top: 50px;
+}
+#section1 {
+    position: relative;
+    padding-top: 100px;
+}
+#section2 {
+    position: relative;
+    padding-top: 800px;
+}
+#section3 {
+    position: relative;
+    padding-top: 800px;
+}
+.text-container {
+    display: block;
+    border: 1px solid #dddddd;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 100;
+}
+h4 {
+    text-transform: uppercase;
+}
+.container-fluid {
+    padding: 0;
+}
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.float-right{
+    float: right;
+}
+.float-left {
+    float: left;
+}
+h1 {
+    font-weight: 900;
+}
+h4 {
+    font-weight: 900;
+}
+.name {
+    padding-top: 100px;
+}
+.col-md-6, .col-lg-6, .col-xl-6 {
+    padding: 0px;
+}
+a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.top {
+    padding-top: 50px;
+}
+footer {
+    clear: both;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){ 
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .max-width {
+        max-width: 1000px;
+    }
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    
+}
+/* Small devices (tablets, 768px and up) */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+/* Large devices (large desktops, 1200px and up) */
+
+
